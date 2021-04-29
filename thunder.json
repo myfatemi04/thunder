@@ -1,0 +1,15 @@
+{
+  "project": {
+    "name": "display-image"
+  },
+  "dependencies": ["opencv"],
+  "executables": {
+    "displayimage": {
+      "sourceFiles": ["./src/*.cpp", "./thunder_modules/**/*.cpp"],
+      "linkLibraries": ["opencv"]
+    }
+  },
+  "scripts": {
+    "build": "thunder build"
+  }
+}
